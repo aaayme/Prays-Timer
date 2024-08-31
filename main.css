@@ -1,0 +1,68 @@
+body{
+
+    background: linear-gradient(to left, #493399, #003d47);
+    background-size: cover ;
+}
+
+.pray{
+    background: rgba(46, 133, 2, 0.47);
+    font-family: "Arabic Typesetting",sans-serif;
+    font-size: x-large;
+    width: 14%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.pray > h1{
+    background: black;
+    color: white;
+}
+.pray > h2 {
+    font-size: 300%;
+
+    color: antiquewhite;
+}
+
+#CountryLabel {
+    background: rgba(46, 133, 2, 0.47);
+    border-radius: 20px;
+    padding: 16px 20px;
+    font-size: xxx-large;
+    font-family: "Arial Black","Arial","sans-serif";
+    color: aliceblue;
+    background-clip: border-box;
+}
+#DayPrays{
+    align-self: stretch;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+    justify-content: space-evenly;
+
+ }
+
+main{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#date{
+    font-family: Amiri , sans-serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+select,input{
+    font-size: x-large;
+    font-family: "Segoe UI",sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 9px;
+}
+

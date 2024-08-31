@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./main.css" rel="stylesheet">
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+<header>
+    <select name="countries" id="countries">
+    </select>
+    <select name="cities" id="cities">
+    </select>
+    <input type="date" id="DateInput">
+</header>
+    <main>
+        <div id="City">
+            <label for="countries" id="CountryLabel"></label>
+        </div>
+        <div id="DayPrays">
+
+            <div class="pray">
+                <h1> الفجر </h1>
+                <h2 id="Fajr"></h2>
+            </div>
+            <div class="pray">
+                <h1> الشروق </h1>
+                <h2 id="Sunrise"></h2>
+            </div>
+            <div class="pray">
+                <h1> الظهر </h1>
+                <h2 id="Dhuhr"></h2>
+            </div>
+            <div class="pray">
+                <h1> العصر </h1>
+                <h2 id="Asr"></h2>
+            </div>
+            <div class="pray">
+                <h1> المغرب </h1>
+                <h2 id="Maghrib"></h2>
+            </div>
+            <div class="pray">
+                <h1> العشاء </h1>
+                <h2 id="Isha"></h2>
+            </div>
+        </div>
+        <div id="date">
+
+        </div>
+    </main>
+</body>
+</html>
