@@ -35,7 +35,6 @@ function main() {
 
     axios.get(`./data.json`).then(
         response => {
-            console.log(response)
             let CountrySelect = document.getElementById("countries")
             CountryList = response.data.data
             for (let country of CountryList){
